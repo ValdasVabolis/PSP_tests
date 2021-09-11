@@ -59,7 +59,7 @@ public class MainTest {
     public void test_phone_correct_prefix() {
         String phoneNumber = "+37067400000";
         String prefix = "LT";
-        int prefixLength = 3;
+        int prefixLength = 4;
         assertEquals(phoneValidator.containsCorrectPrefix(prefix, prefixLength, phoneNumber));
     }
 
